@@ -29,13 +29,12 @@ class Main {
             }
         }while(true);
         //Display the info here
-        System.out.print("Stable address: " + s.address);
         for(int i = 0; i < s.Horses.size(); i++) {
             System.out.print
-                    ("Horse # " + (i+1) +
+                    ("Horse #" + (i+1) +
                     " Name: "  + s.Horses.get(i).Name +
                     " Weight: " + s.Horses.get(i).Weight +
-                    " Tame: " + s.Horses.get(i).isTame);
+                    " Tame: " + s.Horses.get(i).isTame + "\n");
         }
     }
 }
